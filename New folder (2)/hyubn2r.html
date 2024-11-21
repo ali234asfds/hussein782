@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>موقع مبيعات</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- رأس الموقع -->
+  <header>
+    <div class="container">
+      <h1>موقع المبيعات</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">الرئيسية</a></li>
+          <li><a href="#products">المنتجات</a></li>
+          <li><a href="#cart">السلة</a></li>
+          <li><a href="#contact">اتصل بنا</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- شريط البحث -->
+  <section id="search-bar">
+    <div class="container">
+      <input type="text" placeholder="ابحث عن المنتجات...">
+      <button>بحث</button>
+    </div>
+  </section>
+
+  <!-- قائمة المنتجات -->
+  <section id="products">
+    <div class="container">
+      <h2>المنتجات المميزة</h2>
+      <div class="product-list">
+        <div class="product-card">
+          <img src="product1.jpg" alt="Product 1">
+          <h3>منتج 1</h3>
+          <p>سعر: $100</p>
+          <button>أضف إلى السلة</button>
+        </div>
+        <div class="product-card">
+          <img src="product2.jpg" alt="Product 2">
+          <h3>منتج 2</h3>
+          <p>سعر: $200</p>
+          <button>أضف إلى السلة</button>
+        </div>
+        <!-- أضف المزيد من المنتجات هنا -->
+      </div>
+    </div>
+  </section>
+
+  <!-- تذييل الموقع -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 موقع المبيعات - جميع الحقوق محفوظة</p>
+    </div>
+  </footer>
+</body>
+</html>
+<button onclick="addToCart('منتج 1', 100)">أضف إلى السلة</button>
